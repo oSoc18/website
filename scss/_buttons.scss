@@ -137,3 +137,9 @@
     margin-right: 1rem;
   }
 }
+
+.button-group {
+  @include breakpoint(small only) {
+    display: block !important;
+  }
+}

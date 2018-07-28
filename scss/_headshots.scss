@@ -1,5 +1,6 @@
 i.fas {
     font-family: 'FontAwesome';
+    color: $white;
 }
 
 .headshot-gallery {
@@ -24,7 +25,7 @@ i.fas {
         color: $white;
         border-radius: 100%;
         width: 2.5rem;
-        padding: 0.17rem 0.2rem;
+        padding: 0.5rem 0.2rem;
         text-align: center;
         height: 2.5rem;
         text-decoration: none;
@@ -39,7 +40,6 @@ i.fas {
 
             &.fa-linkedin {
                 position: relative;
-                top: -0.1rem;
                 left: 0.05rem;
             }
 
@@ -47,6 +47,20 @@ i.fas {
                 position: relative;
                 left: 0.02rem;
             }
+            
+            &.fas {
+                top: .015rem;
+                color: $white !important;
+            }
+
+            &.fa-linkedin {
+                top: 0.01rem;
+            }
+        }
+
+        &:hover {
+            background-color: $yellow;
+            color: $white;
         }
     }
 }

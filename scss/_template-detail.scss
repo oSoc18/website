@@ -92,6 +92,10 @@
 
 	.h5 a {
 		color: $black;
+
+		&:hover {
+			color: $red;
+		}
 	}
 
 	.h3 a {

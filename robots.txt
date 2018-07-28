@@ -1,2 +1,3 @@
 User-agent: Googlebot-Image
-Disallow: /img/headshots/michiel_leyman.jpg
+Disallow: /images/headshots/michiel.jpg
+Disallow: /images/headshots/diego.jpg
